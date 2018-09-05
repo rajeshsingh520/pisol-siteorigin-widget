@@ -1,0 +1,61 @@
+.pisol-video-module{
+    display:flex;
+    background:#fff;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #ddd;
+    align-items:center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom:20px;
+}
+
+.pisol-video-module:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.pisol-video-module p, .pisol-video-module h3{
+    padding:0;
+    margin-bottom:0;
+	color:#000 !important;
+	text-shadow:none !important;
+}
+  
+.pisol-video{
+    width:30%;
+    position:relative;
+
+}
+
+.pisol-video:before{
+	content:"";
+	position:absolute;
+	width:30px;
+	height:30px;
+	background:url(icon.png) no-repeat center center;
+	background-size:cover;
+	top:50%;
+	left:50%;
+	margin-top:-15px;
+	margin-left:-15px;
+}
+
+.pisol-video img{
+    max-width:100%;
+	display:block;
+}
+
+.pisol-module-content{
+    padding:10px;
+}
+
+@media (max-width:768px){
+    .pisol-video-module{
+        display:block;
+		text-align:center;
+    }
+    
+    .pisol-video{
+        width:100%;
+    }
+}
