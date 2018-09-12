@@ -39,5 +39,3 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__,
 	'pisol-siteorigin-widget'
 );
-
-$updateChecker->setBranch('master');
