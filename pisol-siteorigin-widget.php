@@ -31,3 +31,13 @@ function pisol_add_widget_tabs($tabs) {
     return $tabs;
 }
 add_filter('siteorigin_panels_widget_dialog_tabs', 'pisol_add_widget_tabs', 20);
+
+/* Auto update from github */
+require 'plugin-update-checker-master/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/rajeshsingh520/pisol-siteorigin-widget/',
+	__FILE__,
+	'pisol-siteorigin-widget'
+);
+
+$updateChecker->setBranch('master');
