@@ -13,6 +13,7 @@ define('PISOL_SITEO_WIDGET_URL', plugin_dir_url(__FILE__));
 define('PISOL_SITEO_WIDGET_PATH', plugin_dir_path( __FILE__ ));
 define('PISOL_SITEO_WIDGET_BASE', plugin_basename(__FILE__));
 
+
 function pisol_siteorigin_activation_hoock($folders){
     $folders[] = plugin_dir_path(__FILE__).'pisol-widget/';
     return $folders;
