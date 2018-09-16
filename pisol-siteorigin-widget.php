@@ -3,7 +3,7 @@
 Plugin Name: Pisol Siteorigin Wiget
 Plugin URI: http://100dollarswebsites.com
 Description: Site origin widget for fast website making
-Version: 1.2
+Version: 1.3
 Author: Rajesh singh
 Author URI: https://100dollarswebsites.com
 Text Domain: pisol-siteorigin-widget

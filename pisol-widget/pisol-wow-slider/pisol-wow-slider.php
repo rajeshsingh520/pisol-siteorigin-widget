@@ -12,7 +12,8 @@ class Pisol_Wow_Slider extends SiteOrigin_Widget {
 		//Here you can do any preparation required before calling the parent constructor, such as including additional files or initializing variables.
 		$this->frontend_styles = array(
 			array('bootstrap', PISOL_SITEO_WIDGET_URL.'css/bootstrap.min.css'),
-			array('pisol-logo-carosel-style', PISOL_SITEO_WIDGET_URL.'pisol-widget/pisol-wow-slider/assets/style.css'),
+			array('animate', PISOL_SITEO_WIDGET_URL.'css/animate.css'),
+			array('pisol-wow-slider', PISOL_SITEO_WIDGET_URL.'pisol-widget/pisol-wow-slider/assets/style.css'),
 		);
 	
 		$this->frontend_scripts = array(
